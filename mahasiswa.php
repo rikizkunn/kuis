@@ -21,7 +21,7 @@ class Mahasiswa
     public function tampilkan_mahasiswa()
     {
 
-        $mahasiswa = "Nama : " . $this->data_mahasiswa['nim'] . "<br>NIM : " . $this->data_mahasiswa['nama'] . "";
+        $mahasiswa = "Nama : " . $this->data_mahasiswa['nama'] . "<br>NIM : " . $this->data_mahasiswa['nim'] . "";
         return $mahasiswa;
     }
 }
